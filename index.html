@@ -302,20 +302,30 @@
   </div>
 </section>
 
-<!-- 收心班日常 -->
+<!-- 晚辅日常 -->
 <section id="daily" class="trial">
   <div class="wrap">
     <div class="sec-head">
-      <span class="tag">DAILY CLASS</span>
-      <h2>收心班日常</h2>
-      <p>开学收心，从博识堂开始——视频记录孩子们的日常。</p>
+      <span class="tag">AFTER-SCHOOL STUDY</span>
+      <h2>晚辅日常 · 美好的一天</h2>
+      <p>黄昏到夜色，孩子们在博识堂写作业、问疑难、安静自习——充实又踏实。</p>
     </div>
     <div class="trial-card">
+      <div class="trial-left">
+        <div class="trial-big">放学后<br>交给我们</div>
+        <ul class="trial-list">
+          <li>作业辅导 · 当天功课当天清</li>
+          <li>答疑解惑 · 有不会的随时问</li>
+          <li>安静自习 · 培养专注好习惯</li>
+          <li>营养晚餐 · 吃饱再安心学习</li>
+        </ul>
+        <a href="#signup" class="btn solid" style="margin-top:12px">立即咨询晚辅</a>
+      </div>
       <div class="trial-right">
         <div class="bili-wrap" style="border-radius:12px;overflow:hidden">
-          <iframe src="https://player.bilibili.com/player.html?bvid=BV1CB4Q6pE2J&amp;page=1&amp;autoplay=0&amp;high_quality=1" frameborder="0" scrolling="no" border="0" framespacing="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" allow="autoplay; fullscreen; encrypted-media" style="width:100%;height:100%"></iframe>
+          <iframe src="https://player.bilibili.com/player.html?bvid=BV1iwYr6ZE6d&amp;page=1&amp;autoplay=0&amp;high_quality=1" frameborder="0" scrolling="no" border="0" framespacing="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" allow="autoplay; fullscreen; encrypted-media" style="width:100%;height:100%"></iframe>
         </div>
-        <span class="video-cap">收心班日常</span>
+        <span class="video-cap">博识堂 · 美好的一天</span>
       </div>
     </div>
   </div>
@@ -547,7 +557,7 @@
   </div>
 </section>
 
-<footer>📍 八中往东70米 · 303车站旁　|　© 2026 博识堂　|　学生喜欢 · 家长信任<br><span style="font-size:12px;opacity:.7">👁 今日访问 <span id="laToday">--</span> 次　|　累计访问 <span id="laTotal">--</span> 次</span></footer>
+<footer>📍 八中往东70米 · 303车站旁　|　© 2026 博识堂　|　学生喜欢 · 家长信任<br><span style="font-size:12px;opacity:.7">👁 累计访问 <span id="busuanzi_value_site_pv">--</span> 次</span></footer>
 
 <!-- 图片放大 -->
 <div class="lb-mask" id="lbMask">
@@ -827,26 +837,7 @@
 })();
 </script>
 
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3R5Ua7imYF5JSTq1",ck:"3R5Ua7imYF5JSTq1"})</script>
-<script>
-(function(){
-  var todayEl = document.getElementById("laToday");
-  var totalEl = document.getElementById("laTotal");
-  if(!todayEl || !totalEl) return;
-  fetch("https://v6-widget.51.la/v6/3R5Ua7imYF5JSTq1/quote.js")
-    .then(function(r){ return r.text(); })
-    .then(function(data){
-      var re = /<span>\d+<\/span><span>(\d+)<\/span>/g, m, nums = [];
-      while((m = re.exec(data)) !== null){ nums.push(m[1]); }
-      if(nums.length >= 7){
-        todayEl.textContent = nums[2];
-        totalEl.textContent = nums[6];
-      }
-    })
-    .catch(function(){});
-})();
-</script>
+<script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
